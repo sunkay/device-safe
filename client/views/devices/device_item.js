@@ -1,0 +1,3 @@
+Template.deviceItem.helpers({
+	
+});
