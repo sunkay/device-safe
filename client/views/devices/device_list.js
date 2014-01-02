@@ -1,4 +1,4 @@
-Template.deviceList.helpers({
+Template.devicesList.helpers({
 	devices: function(){
 		return Devices.find();
 	}
