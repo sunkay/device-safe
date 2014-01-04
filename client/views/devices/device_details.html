@@ -1,3 +1,14 @@
 <template name="deviceDetails">
-	{{> deviceItem}}
+	<div class="post">
+		<div class="post-content">
+			<h3>{{name}}
+				<br><span>Operating System: {{os}}</span>
+				<br><span>Owner: {{owner}}</span>
+			</h3>
+		</div>
+		<div class="btn-group btn-group-vertical details">
+			<a href="{{pathFor 'deviceDetails'}}" class="btn">Edit</a>
+			<a href="{{pathFor 'deviceDetails'}}" class="btn btn-danger delete">Delete</a>
+		</div>
+	</div>
 </template>
