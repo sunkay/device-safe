@@ -4,6 +4,9 @@
     "basePackages": {
       "iron-router": {
         "version": "0.6.1"
+      },
+      "observatory": {
+        "version": "0.3.21"
       }
     },
     "packages": {
@@ -11,6 +14,21 @@
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.6.1",
         "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+      },
+      "observatory": {
+        "git": "https://github.com/jhoxray/observatory.git",
+        "tag": "v0.3.21",
+        "commit": "3d6b436af0a70b784d0f9ec4709907c77bd4fd63"
+      },
+      "observatory-apollo": {
+        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
+        "tag": "v0.3.2",
+        "commit": "f704848187a4da2bd179864ae80a1f73a3fd22a6"
+      },
+      "observatory-galileo": {
+        "git": "https://github.com/superstringsoftware/observatory-galileo.git",
+        "branch": "master",
+        "commit": "f21b80e6502d38a7ce66206374b706f2cbd0228d"
       }
     }
   }

@@ -1,0 +1,23 @@
+Device Safe:
+
+Devices:  
+   ☐ sorting the list of devices
+   ☐ Error handling
+   ☐ client side validations
+   ☐ integrate with user accounts
+   ☐ Device Edit & Delete - Allow only if 
+    
+
+Logging:
+    ✔ add Observatory logging for meteor projects @done (14-01-05 17:20)
+    ✔ remove existing console logging @done (14-01-05 17:21)
+    ☐ remove observatory and add winston support
+
+Security:
+ ☐ add accounts managemnt
+ ☐ integrate accounts into existing code i.e CRUD based on user
+ ☐ Create admin user - who can CRUD devices
+ ☐ Admin User can CUD 
+ ☐ Normal users can List Devices only, they should not be able to CUD
+
+

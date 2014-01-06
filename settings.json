@@ -1,0 +1,12 @@
+{
+    "public": {
+        "observatorySettings": {
+            "maxSeverity": "DEBUG",
+            "printToConsole": true,
+            "logUser": true,
+            "logHttp": true,
+            "logDDP": false,
+            "prohibitAutoPublish": false
+        }
+    }
+}

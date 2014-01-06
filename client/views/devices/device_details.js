@@ -3,9 +3,9 @@ Template.deviceDetails.events({
 	'click .delete': function(e){
 		e.preventDefault();
 
-		console.log("In delete event handler");
+		Logger.verbose("In delete event handler");
 
-		if(confirm("Delete this device?")){
+		if(confirm("Do you really want to delete this device?")){
 			var currentDeviceId = this._id;
 			Devices.remove(currentDeviceId);
 			Router.go('devicesList');
