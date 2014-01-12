@@ -11,6 +11,9 @@ Devices:
    ☐ client side validations
    ✔ integrate with user accounts @done (14-01-08 20:20)
    ☐ Device Edit & Delete - Allow only if admin
+   ✔ Edit and Delete buttons up front on the device list page @done (14-01-12 16:14)
+   ✔ Remove Edit & Delete from details page @done (14-01-12 16:14)
+
 
 Logging:
     ✔ add Observatory logging for meteor projects @done (14-01-05 17:20)
@@ -23,7 +26,7 @@ Security:
  ✔ cannot delete or Edit without loggin in @done (14-01-10 21:36)
     ☐ Create admin user - who can CRUD devices
  ☐ Admin User can CUD 
- ☐ Normal users can List Devices only, they should not be able to CUD
+ ✔ Normal users can List Devices only, they should not be able to CUD @done (14-01-12 16:13)
 
 Checkout Devices
  ☐ Add Checkout Button on the device
