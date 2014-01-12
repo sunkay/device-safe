@@ -4,7 +4,16 @@
 			<h3>{{name}}
 				<span>{{os}}</span>
 				<span> owner:{{owner}}</span>
+
 			</h3>
+			{{#if createdByName}}
+				<span>created by: {{createdByName}}
+				</span>
+			{{/if}}
+			{{#if modifiedByName}}
+				<span>modified by: {{modifiedByName}}
+				</span>
+			{{/if}}
 		</div>
 		<a href="{{pathFor 'deviceDetails'}}" class="details btn">Details</a>
 	</div>

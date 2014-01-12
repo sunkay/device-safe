@@ -3,22 +3,30 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {
-        "version": "0.6.1"
+        "version": "0.6.2"
       },
       "observatory": {
         "version": "0.3.21"
+      },
+      "accounts-ui-bootstrap-dropdown": {
+        "version": "0.6.5.1"
       }
     },
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.1",
-        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+        "tag": "v0.6.2",
+        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
       },
       "observatory": {
         "git": "https://github.com/jhoxray/observatory.git",
         "tag": "v0.3.21",
         "commit": "3d6b436af0a70b784d0f9ec4709907c77bd4fd63"
+      },
+      "accounts-ui-bootstrap-dropdown": {
+        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
+        "tag": "v0.6.5.1",
+        "commit": "c8b29d2e7f8611d6dec9d6d23c1c2b94e000b0fb"
       },
       "observatory-apollo": {
         "git": "https://github.com/superstringsoftware/observatory-apollo.git",

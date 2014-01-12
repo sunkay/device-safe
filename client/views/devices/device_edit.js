@@ -8,7 +8,9 @@ Template.deviceEdit.events({
 		var device = {
 			name: $(e.target).find('[name=name]').val(),
 			os: $(e.target).find('[name=os]').val(),
-			owner: $(e.target).find('[name=owner]').val()
+			owner: $(e.target).find('[name=owner]').val(),
+			modifiedById: Meteor.user()._id,
+			modifiedBy: Meteor.user().username
 		}
 
 		Logger.info("Edit Device", device, "deviceEdit");

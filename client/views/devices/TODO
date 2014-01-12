@@ -3,10 +3,14 @@ Device Safe:
 Devices:  
    ☐ sorting the list of devices
    ☐ Error handling
+       ✔ error template @done (14-01-05 21:52)
+       ✔ error client collection, seen, clear errors etc @done (14-01-05 21:52)
+       ☐ Error & logging better integrated
+       ☐ Server side error logging
+       ☐ Error codes
    ☐ client side validations
-   ☐ integrate with user accounts
-   ☐ Device Edit & Delete - Allow only if 
-    
+   ✔ integrate with user accounts @done (14-01-08 20:20)
+   ☐ Device Edit & Delete - Allow only if admin
 
 Logging:
     ✔ add Observatory logging for meteor projects @done (14-01-05 17:20)
@@ -14,10 +18,24 @@ Logging:
     ☐ remove observatory and add winston support
 
 Security:
- ☐ add accounts managemnt
- ☐ integrate accounts into existing code i.e CRUD based on user
- ☐ Create admin user - who can CRUD devices
+ ✔ add accounts managemnt @done (14-01-10 20:09)
+ ✔ integrate accounts into existing code i.e CRUD based on user @done (14-01-10 21:37)
+ ✔ cannot delete or Edit without loggin in @done (14-01-10 21:36)
+    ☐ Create admin user - who can CRUD devices
  ☐ Admin User can CUD 
  ☐ Normal users can List Devices only, they should not be able to CUD
 
+Checkout Devices
+ ☐ Add Checkout Button on the device
+ ☐ Checkout button should be only visible for logged in users
+ ☐ When a user clicks checkout button, the device should turn a different color
+ ☐ Store information about who checked out the device, date & time, and comments - 
+ ☐ Device details should show a history of all checkin's & checkout's that happened in the past 10 times
+
+Checkin Device
+ ☐ Add Checkin Button on the device
+ ☐ Checkin button should be only visible for logged in users
+ ☐ When a user clicks checkin button, the device should turn a original  color
+ ☐ Store information about who checkin  the device, date & time, and comments - 
+ ☐ Device details should show a history of all checkin's & checkout's that happened in the past 10 times
 

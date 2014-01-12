@@ -1,6 +1,7 @@
 {
   "packages": {
     "iron-router": {},
-    "observatory": {}
+    "observatory": {},
+    "accounts-ui-bootstrap-dropdown": {}
   }
 }
