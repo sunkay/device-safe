@@ -1,4 +1,4 @@
-.grid-block, .main, .post, .comments li, .comment-form {
+.grid-block, .main, .post, .checkouts li, .checkout-form {
   background: #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -71,18 +71,18 @@ body {
     float: right;
     margin-top: 7px; }
 
-.comments {
+.checkouts {
   list-style-type: none;
   margin: 0; }
-  .comments li h4 {
+  .checkouts li h4 {
     font-size: 16px;
     margin: 0; }
-    .comments li h4 .date {
+    .checkouts li h4 .date {
       font-size: 12px;
       font-weight: normal; }
-    .comments li h4 a {
+    .checkouts li h4 a {
       font-size: 12px; }
-  .comments li p:last-child {
+  .checkouts li p:last-child {
     margin-bottom: 0; }
 
 .dropdown-menu span {

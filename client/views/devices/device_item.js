@@ -18,5 +18,10 @@ Template.deviceItem.events({
 			});
 			Router.go('devicesList');
 		}
+	},
+
+	'click .checkout': function(e){
+		confirm("Checking out..."+(e.target).find('deviceItemDiv'));
+		this.firstNode.find('deviceItemDiv').css({'background-color':'grey'});
 	}
 });

@@ -1,7 +1,7 @@
 Device Safe:
 
 Devices:  
-   ☐ sorting the list of devices
+   ✔ sorting the list of devices @done (14-01-12 18:45)
    ☐ Error handling
        ✔ error template @done (14-01-05 21:52)
        ✔ error client collection, seen, clear errors etc @done (14-01-05 21:52)
@@ -24,9 +24,14 @@ Security:
  ✔ add accounts managemnt @done (14-01-10 20:09)
  ✔ integrate accounts into existing code i.e CRUD based on user @done (14-01-10 21:37)
  ✔ cannot delete or Edit without loggin in @done (14-01-10 21:36)
-    ☐ Create admin user - who can CRUD devices
- ☐ Admin User can CUD 
  ✔ Normal users can List Devices only, they should not be able to CUD @done (14-01-12 16:13)
+
+Admin and Authorization
+   ☐ Create default admin user & ability to change the password 
+   ☐ Admin should be able to CRUD devices
+   ☐ Admin page where existing users can be made administrators
+   ☐ Admin page should only be accessable to administrators
+   ☐ RBAC/Roles package integration
 
 Checkout Devices
  ☐ Add Checkout Button on the device

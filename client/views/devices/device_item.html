@@ -1,5 +1,5 @@
 <template name="deviceItem">
-	<div class="post">
+	<div id="deviceItemDiv" class="post">
 		<div class="post-content">
 			<h3>{{name}}
 				<span>{{os}}</span>
@@ -15,7 +15,10 @@
 				</span>
 			{{/if}}
 		</div>
+
 		<div class="btn-group pull-right">
+			<a href="{{pathFor 'deviceCheckout'}}" class="btn checkout">
+  				<span class="icon-check"></span> Checkout </a>
 			<a href="{{pathFor 'deviceDetails'}}" class="btn">Details</a>
 			<a href="{{pathFor 'deviceEdit'}}" class="btn">
   				<span class="icon-edit"></span> </a>	
