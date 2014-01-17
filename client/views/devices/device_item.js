@@ -11,13 +11,17 @@ Template.deviceItem.events({
 			return;
 		}
 
-		if(confirm("Do you really want to delete this device?")){
-			var currentDeviceId = this._id;
-			Devices.remove(currentDeviceId, function(error){
-				throwError(error.reason);			
-			});
-			Router.go('devicesList');
-		}
+		var currentDeviceId = this._id;
+
+		bootbox.confirm("Are you sure?", function(result) {
+  			if(result){
+				Devices.remove(currentDeviceId, function(error){
+					if(error)
+						throwError(error.reason);			
+				});
+				Router.go('devicesList');  				
+  			}
+		});
 	},
 
 	'click .checkout': function(e){
