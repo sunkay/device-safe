@@ -10,6 +10,9 @@
       },
       "accounts-ui-bootstrap-dropdown": {
         "version": "0.6.5.1"
+      },
+      "bootboxjs": {
+        "version": "3.2.2"
       }
     },
     "packages": {
@@ -27,6 +30,11 @@
         "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
         "tag": "v0.6.5.1",
         "commit": "c8b29d2e7f8611d6dec9d6d23c1c2b94e000b0fb"
+      },
+      "bootboxjs": {
+        "git": "https://github.com/TimHeckel/meteor-bootboxjs.git",
+        "tag": "v3.2.2",
+        "commit": "580adfebfa12b4d2186a80cec1109dab74ad6228"
       },
       "observatory-apollo": {
         "git": "https://github.com/superstringsoftware/observatory-apollo.git",

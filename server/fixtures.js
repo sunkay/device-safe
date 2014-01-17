@@ -12,22 +12,7 @@ if(Devices.find().count() === 0){
 		owner: 'QA',
 		os: 'iOS7',
 		submitted: now,
-		createdBy: testUser._id,
-		createdByName: testUser.profile.name
-	});
-	Devices.insert({
-		name: 'Samsung Galaxy S4',
-		owner: 'QA',
-		os: 'Android 4.3.3',
-		submitted: now,
-		createdBy: testUser._id,
-		createdByName: testUser.profile.name
-	});
-	Devices.insert({
-		name: 'iphone-5s',
-		owner: 'Dev',
-		os: 'iOS6',
-		submitted: now,
+		checkedout: 1, // 0 = No, 1 = Yes
 		createdBy: testUser._id,
 		createdByName: testUser.profile.name
 	});
