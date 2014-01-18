@@ -18,7 +18,7 @@ Meteor.methods({
 			deviceId: checkoutAttributes.deviceId,
 			userId: user._id,
 			userName: user.username, 
-			submitted: new Date().getTime(), 
+			checkoutDate: new Date().getTime(), 
 			comments: checkoutAttributes.comments
 		};
 

@@ -21,7 +21,8 @@ if(Devices.find().count() === 0){
 		deviceId: deviceId1,
 		userId: testUser._id,
 		userName: testUser.profile.name,
-		submitted: now,
+		checkoutDate: now,
+		checkinDate: 0,
 		comments:'checked out for dev testing' 
 	});
 }

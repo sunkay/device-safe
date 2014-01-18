@@ -69,7 +69,6 @@ Template.deviceItem.events({
 			return;
 		}
 
-		confirm("Checking in...");
 
 		Logger.info("checking in: ", this._id, "click checkin");
 

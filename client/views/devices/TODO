@@ -34,16 +34,19 @@ Admin and Authorization
    ☐ RBAC/Roles package integration
 
 Checkout Devices
- ☐ Add Checkout Button on the device
+ ✔ Add Checkout Button on the device @done (14-01-16 21:51)
  ☐ Checkout button should be only visible for logged in users
- ☐ When a user clicks checkout button, the device should turn a different color
- ☐ Store information about who checked out the device, date & time, and comments - 
- ☐ Device details should show a history of all checkin's & checkout's that happened in the past 10 times
+ ✔ When a user clicks checkout button, the device should turn a different color @done (14-01-16 21:51)
+ ✔ Store information about who checked out the device, date & time, and comments - @done (14-01-16 21:51)
+ ✔ Device details should show a history of all checkin's & checkout's that happened in the past 10 times @done (14-01-16 21:51)
 
 Checkin Device
- ☐ Add Checkin Button on the device
+ ✔ Add Checkin Button on the device @done (14-01-16 21:51)
  ☐ Checkin button should be only visible for logged in users
- ☐ When a user clicks checkin button, the device should turn a original  color
+ ✔ When a user clicks checkin button, the device should turn a original  color @done (14-01-16 21:51)
  ☐ Store information about who checkin  the device, date & time, and comments - 
  ☐ Device details should show a history of all checkin's & checkout's that happened in the past 10 times
+ ☐ Checkin record should be there..
+ ☐ organize the list of checkins and checkouts
+
 
