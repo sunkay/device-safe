@@ -85,8 +85,19 @@ body {
   .checkouts li p:last-child {
     margin-bottom: 0; }
 
-  .checkin{
+  .checkin-detail{
     color: #008080;
+    margin-left: 50px;
+  }
+    .checkin-detail h6{
+      white-space: nowrap;
+      display: inline;    
+    }
+
+
+  .checkout-detail{
+    white-space: nowrap;
+    display: inline;
   }
 
 .dropdown-menu span {
