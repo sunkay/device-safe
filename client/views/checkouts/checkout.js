@@ -1,9 +1,11 @@
+
+
 Template.checkout.helpers({
 	checkoutDate: function () {
-		return new Date(this.checkoutDate).toString();
+		return dateFormat(new Date(this.checkoutDate), "dddd, mmmm dS, yyyy, h:MM TT");
 	},
 	checkinDateTxt: function () {
-		return new Date(this.checkinDate).toString();
+		return dateFormat(new Date(this.checkinDate), "dddd, mmmm dS, yyyy, h:MM TT");
 	},
 	checkedinFlag: function(){
 		if(this.checkinDate == 0) 

@@ -99,6 +99,9 @@ body {
     white-space: nowrap;
     display: inline;
   }
+  .checkout-big{
+    font-size: 18px;
+  }
 
 .dropdown-menu span {
   display: block;

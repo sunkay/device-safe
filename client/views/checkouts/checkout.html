@@ -2,10 +2,16 @@
 	<div class="checkouts">
 		<ul>
 			<li>
-					<h5 class="checkout-detail">Checked out by </h6> 
-					<span>
-						{{ userName }} on {{ checkoutDate }}	
+					<span class="checkout-detail">Checked out by </span> 
+					<span class="checkout-big">
+						{{ userName }} 	
 					</span> 
+					<span>
+						on {{ checkoutDate }} with comments: 
+					</span>
+					<span class="checkout-big">
+						{{comments}}
+					</span>
 			</li>
 			{{#if checkedinFlag}}
 				<li class="checkin-detail">
