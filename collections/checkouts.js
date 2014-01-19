@@ -40,15 +40,15 @@ Meteor.methods({
 		Logger.info("updating checkin record: deviceId", deviceId, "Method checkin");
 
 		// update checkin date on the checkout record
-		checkoutId = Checkouts.findOne({deviceId:deviceId, checkinDate: 0})._id;
-		Logger.info("checkoutId", checkoutId, "Method Checkin");
+		var checkout = Checkouts.findOne({deviceId:deviceId, checkinDate: 0});
+		Logger.info("checkoutId", checkout._id, "Method Checkin");
+
+		ownsDocument(user._id, checkout);
 
 		var date = new Date().getTime();
-		Checkouts.update(checkoutId, {$set: {checkinDate: date}});
+		Checkouts.update(checkout._id, {$set: {checkinDate: date}});
 
 		// mark the device as checked out
 		Devices.update(deviceId, {$set: {checkedout: 0}});
-
-
 	}
 });

@@ -1,17 +1,8 @@
 Devices = new Meteor.Collection('devices');
 
-ownsDevice = function(userId, doc) {
-	Logger.info("Doc userId: "+userId, doc, "ownsDevice");
-	if (!(doc && doc.createdBy === userId))
-	{
-		throw new Meteor.Error(401, 'Access denied.... not an owner');
-	}
-	return true;
-}
-
 Devices.allow({
-	update: ownsDevice,
-	remove: ownsDevice
+	update: ownsDocument,
+	remove: ownsDocument
 });
 
 
@@ -35,7 +26,7 @@ Meteor.methods({
 		// pick out whitelisted keys to make sure no injection happens
 		var device = _.extend(_.pick(deviceAttributes, 'name', 'os', 'owner'),{
 			submitted: new Date().getTime(),
-			createdBy: user._id,
+			userId: user._id,
 			createdByName: user.username
 		});
 

@@ -13,6 +13,9 @@
       },
       "bootboxjs": {
         "version": "3.2.2"
+      },
+      "dateformatjs": {
+        "version": "0.1.3"
       }
     },
     "packages": {
@@ -35,6 +38,11 @@
         "git": "https://github.com/TimHeckel/meteor-bootboxjs.git",
         "tag": "v3.2.2",
         "commit": "580adfebfa12b4d2186a80cec1109dab74ad6228"
+      },
+      "dateformatjs": {
+        "git": "https://github.com/sunkay/meteor-date-format.git",
+        "tag": "v0.1.3",
+        "commit": "c62975dfeea1464c08f23f6efd4de416becad589"
       },
       "observatory-apollo": {
         "git": "https://github.com/superstringsoftware/observatory-apollo.git",

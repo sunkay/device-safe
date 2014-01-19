@@ -13,7 +13,7 @@ if(Devices.find().count() === 0){
 		os: 'iOS7',
 		submitted: now.getTime(),
 		checkedout: 1, // 0 = No, 1 = Yes
-		createdBy: testUser._id,
+		userId: testUser._id,
 		createdByName: testUser.profile.name
 	});
 

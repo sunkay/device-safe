@@ -1,5 +1,3 @@
-
-
 Template.checkout.helpers({
 	checkoutDate: function () {
 		return dateFormat(new Date(this.checkoutDate), "dddd, mmmm dS, yyyy, h:MM TT");
@@ -13,5 +11,4 @@ Template.checkout.helpers({
 		else
 			return true;
 	}
-
 });
