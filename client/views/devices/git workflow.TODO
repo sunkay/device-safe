@@ -8,6 +8,9 @@ git workflow
   ☐ git commit -m "comment" --all
   ☐ git push origin develop --> pushes local changes in branch to remote
   ☐ git push origin develop:master -->release
+  ☐ git tag -a v1.4 -m 'my version 1.4'
+ ☐ git tag
+
 
 
 meteor --settings settings.json
