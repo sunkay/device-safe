@@ -7,7 +7,7 @@ git workflow
   ☐ git add --all
   ☐ git commit -m "comment" --all
   ☐ git push origin develop --> pushes local changes in branch to remote
-  ☐ git push origin develop:master -->
+  ☐ git push origin develop:master -->release
 
 
 meteor --settings settings.json
