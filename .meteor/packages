@@ -5,10 +5,10 @@
 
 standard-app-packages
 preserve-inputs
-bootstrap
 iron-router
 observatory
 accounts-ui-bootstrap-dropdown
 accounts-password
 bootboxjs
 dateformatjs
+bootstrap

@@ -10,6 +10,7 @@ git workflow
   ☐ git push origin develop:master -->release
   ☐ git tag -a v1.4 -m 'my version 1.4'
  ☐ git tag
+ ☐ git push --tags
 
 
 
