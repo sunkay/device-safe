@@ -1,0 +1,11 @@
+<template name="breadcrumbs">
+	<div class="">
+		{{#each crumb}}
+			{{#each crumbs}}
+				<a href="{{pathFor .}}">
+					<span class="icon-home"></span>{{../display}}
+				</a>
+			{{/each}}
+		{{/each}}
+	</div>
+</template>
