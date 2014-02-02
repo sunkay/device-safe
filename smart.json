@@ -4,6 +4,7 @@
     "observatory": {},
     "accounts-ui-bootstrap-dropdown": {},
     "bootboxjs": {},
-    "dateformatjs": {}
+    "dateformatjs": {},
+    "moment": {}
   }
 }

@@ -4,10 +4,10 @@
 			<li>
 					<span class="checkout-detail">Checked out by </span> 
 					<span class="checkout-big">
-						{{ userName }} 	
+						{{ userName }} 	.. 
 					</span> 
 					<span>
-						on {{ checkoutDate }} with a reason: 
+						  {{ checkoutDate }} with a reason: 
 					</span>
 					<span class="checkout-big">
 						{{comments}}
@@ -15,7 +15,8 @@
 			</li>
 			{{#if checkedinFlag}}
 				<li class="checkin-detail">
-					<h6>Checked In by: {{ userName }} on {{ checkinDateTxt }} 
+					<h6>Checked In by: {{ userName }} ..  
+						{{ checkinDateTxt }} 
 					</h6>
 				</li>
 			{{/if}}
