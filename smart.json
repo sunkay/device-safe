@@ -5,6 +5,7 @@
     "accounts-ui-bootstrap-dropdown": {},
     "bootboxjs": {},
     "dateformatjs": {},
-    "moment": {}
+    "moment": {},
+    "spin": {}
   }
 }
