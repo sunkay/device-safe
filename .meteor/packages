@@ -9,8 +9,8 @@ iron-router
 observatory
 accounts-ui-bootstrap-dropdown
 accounts-password
-bootboxjs
 dateformatjs
 bootstrap
 moment
 spin
+bootboxjs

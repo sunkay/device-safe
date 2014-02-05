@@ -3,9 +3,9 @@
     "iron-router": {},
     "observatory": {},
     "accounts-ui-bootstrap-dropdown": {},
-    "bootboxjs": {},
     "dateformatjs": {},
     "moment": {},
-    "spin": {}
+    "spin": {},
+    "bootboxjs": {}
   }
 }
