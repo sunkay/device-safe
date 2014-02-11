@@ -2,10 +2,10 @@
   "packages": {
     "iron-router": {},
     "observatory": {},
-    "accounts-ui-bootstrap-dropdown": {},
     "dateformatjs": {},
     "moment": {},
     "spin": {},
+    "accounts-ui-bootstrap-dropdown": {},
     "bootboxjs": {}
   }
 }

@@ -7,10 +7,10 @@ standard-app-packages
 preserve-inputs
 iron-router
 observatory
-accounts-ui-bootstrap-dropdown
 accounts-password
 dateformatjs
-bootstrap
 moment
 spin
+bootstrap
+accounts-ui-bootstrap-dropdown
 bootboxjs
