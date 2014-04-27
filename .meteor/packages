@@ -4,13 +4,11 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-preserve-inputs
 iron-router
-observatory
 accounts-password
 dateformatjs
 moment
 spin
-bootstrap
-accounts-ui-bootstrap-dropdown
 bootboxjs
+trail
+accounts-ui-bootstrap-3
