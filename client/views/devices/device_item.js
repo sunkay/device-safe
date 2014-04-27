@@ -3,7 +3,7 @@ Template.deviceItem.events({
 	'click .delete': function(e){
 		e.preventDefault();
 
-		Logger.verbose("In delete event handler");
+		Logger.info("In delete event handler");
 
 		if(!Meteor.user()){
 			throwError("Access Denied... please login..");
