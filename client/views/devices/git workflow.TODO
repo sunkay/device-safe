@@ -2,8 +2,9 @@ git workflow
  ☐   git clone https://github.com/sunkay/device-safe.git
  ☐   git checkout -b develop origin/develop
  ☐   mrt add iron-router
-  ☐ mrt add observatory    
+  ☐ mrt add trail    --> observatory is not maintained... removed
   ☐ mrt add accounts-ui-bootstrap-dropdown
+
   ☐ git add --all
   ☐ git commit -m "comment" --all
   ☐ git push origin develop --> pushes local changes in branch to remote
@@ -11,6 +12,27 @@ git workflow
   ☐ git tag -a v1.4 -m 'my version 1.4'
  ☐ git tag
  ☐ git push --tags
+
+   git checkout -b feature-branch
+   after making changes & commiting.. when you are ready to merge 
+
+    # merging feature branches to develop
+   git checkout develop
+   git merge feature-branch
+   git push origin develop
+
+   # merging develop to master
+   git checkout master
+   git pull
+   git merge develop
+   git push origin master
+   git tag -a 1.2
+
+  # delete both local & remote feature-branch
+  git branch -d feature-branch // deletes local branch
+  git push origin --delete feature-branch // deletes remote branch
+
+
 
 
 
