@@ -32,6 +32,11 @@ git workflow
   git branch -d feature-branch // deletes local branch
   git push origin --delete feature-branch // deletes remote branch
 
+KEY GIT WORKFLOW DOCS:
+http://rogerdudler.github.io/git-guide/
+http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging
+http://nvie.com/posts/a-successful-git-branching-model/
+
 
 
 
