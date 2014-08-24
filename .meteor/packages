@@ -5,12 +5,12 @@
 
 standard-app-packages
 iron-router
-accounts-password
 dateformatjs
 moment
 spin
 bootboxjs
 trail
-accounts-ui-bootstrap-3
 accounts-entry
 profile
+bootstrap-3
+accounts-password
