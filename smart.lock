@@ -9,7 +9,8 @@
       "bootboxjs": {},
       "trail": {},
       "accounts-entry": {},
-      "profile": {}
+      "profile": {},
+      "font-awesome": {}
     },
     "packages": {
       "iron-router": {
@@ -51,6 +52,11 @@
         "git": "https://github.com/Differential/meteor-profile.git",
         "tag": "v0.0.10",
         "commit": "2540cdc76cf5c5fdf6ee0fd0cff1e37c4b1ba519"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.1.0",
+        "commit": "ce6b1e92715d1938babc5d69c655c17e387f5926"
       },
       "iron-layout": {
         "git": "https://github.com/EventedMind/iron-layout.git",
