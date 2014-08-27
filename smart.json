@@ -1,6 +1,5 @@
 {
   "packages": {
-    "iron-router": {},
     "dateformatjs": {},
     "moment": {},
     "spin": {},
