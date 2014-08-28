@@ -4,15 +4,13 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-iron-router
-dateformatjs
-moment
-spin
-bootboxjs
-trail
-accounts-entry
-profile
-bootstrap-3
+mrt:moment
 accounts-password
-jquery-sidr
-font-awesome
+mrt:trail
+mizzao:bootboxjs
+sacha:spin
+mrt:dateformatjs
+iron:router
+mizzao:bootstrap-3
+joshowens:accounts-entry
+
