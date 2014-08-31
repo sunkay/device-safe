@@ -1,3 +1,4 @@
+/*
 Template.header.rendered = function () {
   $(document).ready(function () {
       $('.slideout-menu-toggle').on('click', function(event){
@@ -27,3 +28,4 @@ Template.header.rendered = function () {
       });
   });
 };
+*/
