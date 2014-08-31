@@ -1,10 +1,7 @@
 git workflow
  ☐   git clone https://github.com/sunkay/device-safe.git
  ☐   git checkout -b develop origin/develop
- ☐   mrt add iron-router
-  ☐ mrt add trail    --> observatory is not maintained... removed
-  ☐ mrt add accounts-ui-bootstrap-dropdown
-
+ 
   ☐ git add --all
   ☐ git commit -m "comment" --all
   ☐ git push origin develop --> pushes local changes in branch to remote
